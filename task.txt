@@ -1,0 +1,43 @@
+Window 
+
+Scope and Hierarchy:Is the top-level object in the browser’s JS.
+
+Global Object :This is a global object and can be accessed without any qualification 
+
+Properties :Contains properties related to the browser window 
+ 
+Methods :For managing the browser 
+ 
+Events:Handles events related to the browser
+ 
+Dimensions :Provide information about the dimensions of the browser
+ 
+Location and navigation :Is responsible for managing the browser’s location and navigation.
+ 
+Access to frames :Can access and manipulate frames within a webpage
+ 
+Browser information :Provides information about the browser environment
+
+Parent child relationship:Is the parent object of all other global JS  
+ 
+Document
+
+Scope and Hierarchy :This is a properety of the window object and represents the web page loaded in the window or tab. 
+
+global object:This is nota global object and must be acceessed through the window object 
+
+Properties:Contains properties related to the web pages content 
+
+Methods:For working with the pages content 
+
+Events:Handles event related to the webpage 
+
+Dimensions:Provides information about the dimensions of the web page 
+
+Location and navigation:Is not directly involved in location or navigation but can be manipulated by the scripts 
+
+Access to frames:Typically doesn’t have direct access to frames 
+
+Browser information:Does not provide information about the browser
+
+Parent child relationship:is a child object of the window object, representing the content within the browser window.
